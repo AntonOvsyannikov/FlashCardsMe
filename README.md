@@ -1,0 +1,1 @@
+Easy to use Flash Cards software written in Java. Includes learning path, dfferent cards templates, filters etc.
