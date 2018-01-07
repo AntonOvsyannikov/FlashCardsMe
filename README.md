@@ -263,11 +263,13 @@ Sometimes you need to swap the question and the answer to enforce memorization. 
 
 ### Cards Classes
 
-When studying something with Flash Cards, sometimes it is convenient to break cards into groups. Thus, when studying words, it is convenient to break cards into nouns, verbs, and so on and study them separately. For this purpose, the program provides the concept of a card class. In our case, it is possible to separate states for the Southern and Northern regions. To do this, first you need to add the "class" field to the deck data table. We go to the editing screen of the deck, press "Fields: (+)", enter the name "* class". Notice the asterisk at the beginning of the name. Since we need this field only for filtering, it’s good idea to hide it when editing templates. Asterisk will do so. Now enter the class to the new field for all states.
+When studying something with Flash Cards, sometimes it is convenient to break cards into groups. Thus, when studying words, it is convenient to break cards into nouns, verbs, and so on and study them separately. For this purpose, the program provides the concept of a card class. In our case, it is possible to separate states for the Southern and Northern regions. To do this, first you need to add the "class" field to the deck data table. We go to the editing screen of the deck, press "Fields: (+)", enter the name "\*class". Notice the asterisk at the beginning of the name. Since we need this field only for filtering, it’s good idea to hide it when editing templates. Asterisk will do so. Now enter the class to the new field for all states.
 
 ![](images/image14.png)
 
-Then click the "Edit: Classes" button. Press the button (+) and enter the name of the class "South states". As a condition, we enter that the field "* class" must contain (be equal) "South". We repeat the procedure for "North classes".![](images/image14.png)
+Then click the "Edit: Classes" button. Press the button (+) and enter the name of the class "South states". As a condition, we enter that the field "\*class" must contain (be equal) "South". We repeat the procedure for "North classes".
+
+![](images/image13.png)
 
 Done! Now our cards are divided into classes, and when studying the deck, we will be able to choose which states we will study.
 
