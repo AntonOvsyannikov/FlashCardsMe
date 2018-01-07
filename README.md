@@ -75,11 +75,14 @@ The following two small guides will shows you how to study with ready Deck, as w
 
 ### Installation and start-up
 
-First, you need to download the program FlashCardsMe. To do this, download the jar file
 
-Also you need to install the Java 8 runtime environment (i.e. Java SE Runtime Environment 8u151).
+To begin, you should install the Java runtime environment 8. At the moment, the latest official version of the runtime is [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-Also, you need to download here a simple deck, through which we will learn the capitals of 10 states of the USA.
+Then you need to download the zip file with the program [here](https://github.com/AntonOvsyannikov/FlashCardsMe/raw/master/FlashCardsMe.zip).
+
+Unpack the zip archive and click FlashCardsMe.jar to run the programm. Make sure first, that jar extension is associated with Java runtime.
+
+Also, you need to download [here](https://github.com/AntonOvsyannikov/FlashCardsMe/raw/master/SampleDeck/states.jfc) a simple deck, through which we will learn the capitals of 10 states of the USA.
 
 After starting the program you will see the main screen. There is list of available Decks, and some buttons that allow us to create, import or export the decks, as well as edit, rename or delete them. The first step is to import the deck, loaded from web site. Push the button "Import ..." and select the file with the deck. The deck appears in the list under the name "states.jfc". Rename it to "States". To do this, select the deck, press "Rename..." and type the new name "States".
 
@@ -279,4 +282,4 @@ Done!
 
 ### Exporting the Deck
 
-Thus, we considered the basic possibilities of creating decks in the program FlashCardsMe. Now we export the ready deck for distribution. The program FlashCardsMe will automatically pack these data decks and all media files into a single archive, ready for distribution on forums or in some other way. To do this, go to the main screen of the program, select our deck and click the "Export ..." button. Select the directory and file name, click "Save". Our deck is ready! This is the file we used in the first lesson.
+Thus, we have learned the basics of creating decks in FlashCardsMe. Now we should export the ready deck for distribution. The program FlashCardsMe will automatically pack decks data and all it's media files into a single archive, ready for distribution on forums or in some other way. To do this, go to the main screen of the program, select our deck and click the "Export ..." button. Select the directory and file name, click "Save". Our deck is ready! This is the file we used in the first lesson.
