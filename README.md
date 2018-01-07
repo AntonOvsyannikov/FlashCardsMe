@@ -4,7 +4,7 @@
 
 FlashCardsMe is a simple program for learning information using Flash Cards. It can be used for learning foreign languages (in particular, for memorizing words, alphabets, characters), memorizing place names, visual images, recognizing words by hearing and in other similar cases.
 
-![](images/image3.png)
+![](images/image15.png)
 
 Flash Card is a virtual piece of cardboard, where there is a question on the front side (such as a word in a foreign language) and answer on the back side (i.e. translation of the word). The program shows the front side, and prompts you to enter an answer, and then shows the reverse side, controlling the correctness of the answer. During learning process, the program allows you to group cards in a stacks like “Easy”, “Learned”, “Difficult” etc. while not solving for the user, which cards to show and in which order, when to consider them memorized, etc. The entire learning process is under control of the trainee. The program, thus, provides a number of powerful and flexible tools of control over the learning process.
 
@@ -95,7 +95,7 @@ Done!
 
 It's time to start studying! Choose the deck, and then click "Learn!”, and we go to the learning screen.
 
-![](images/image6.png)
+![](images/image5.png)
 
 On the learning screen, we see the buttons for the 6 default stacks. Recall their functions:
 
@@ -115,11 +115,11 @@ We have 20 cards in the deck in total. Half of them proposes us to enter the nam
 
 By clicking on the stack (stack button), demonstration of cards begins in the order in which they are in the stack. You can show cards in the stack "Deck", if you wish, but it is better to move a few cards to the "Learning" stack and then shuffle it. It is not recommended to shuffle the "Deck" itself, since cards can be arranged in particular order, for example by increasing complexity. So, click "(↓)" between the "Deck" and "Learning" stacks, and transfer 10 random cards to "Learning" stack.
 
-![](images/image8.png)
+![](images/image7.png)
 
 We now have 10 cards in the "Deck" and "Learning". Once you learn all 10 cards, you can add cards from "Deck" stack . But you can do it anytime, you are responsible for determining the course of the learning process. However, we will proceed to study the cards by clicking "Learning" button.
 
-![](images/image5.png)
+![](images/image4.png)
 
 We got the card, which is prompted to enter the name of the state capital of California.
 
@@ -151,13 +151,13 @@ Card # 1 of 10 - the first card of the 10 in the stack
 
 Now we will try to do the job. The correct answer is "Sacramento", but let's see what happens if we enter the wrong answer. Type, for example, "Scramento" and press "Enter".
 
-![](images/image9.png)
+![](images/image8.png)
 
 On the reverse side we see right and wrong answer. Just see decreased by 1 success counter.
 
 Now let's try to enter the answer several times correctly.
 
-![](images/image12.png)
+![](images/image11.png)
 
 After the third time Easy button will turn yellow, and after the 6th - green. That’s it! We have  learned this card, it is time to move it to "Easy" stack, by clicking on a green button!
 
