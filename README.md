@@ -14,7 +14,7 @@ FlashCardsMe written in Java using the Swing library that allows a program to ru
 
 To begin, you should install the Java runtime environment 8. At the moment, the latest official version of the runtime is [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-Then you need to download the zip file with the program [here](https://github.com/AntonOvsyannikov/FlashCardsMe/raw/master/FlashCards.zip).
+Then you need to download the zip file with the program [here](https://github.com/AntonOvsyannikov/FlashCardsMe/raw/master/FlashCardsMe.zip).
 
 Unpack the zip archive and click FlashCardsMe.jar to run the programm. Make sure first, that jar extension is associated with Java runtime.
 
