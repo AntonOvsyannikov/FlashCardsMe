@@ -221,7 +221,7 @@ Save file in UTF-8 (File / Save As / UTF-8 )
 
 Run FlashCardsMe and press the button (+) (to create a new deck). Enter the name of the deck (States), and press (OK). We see that in the list there is a new deck.
 
-![](images/image13.png)
+![](images/image12.png)
 
 Click "Edit ..." button. “Edit Deck” window appears. Press “CSV…” button in the “Import” section. File chooser window appears. Select just created csv file. “Import CSV” window appears. Since the default encoding is ANSI, but file is saved in UTF-8 (do not forget to do so, if your file contains Russian letters, for example) there is trash on the screen. We need to choose the correct character encoding (UTF-8) and the delimiter (Delimiter: <,>) and then press “Reload”. That’s it, the file is ready for import.
 
@@ -249,7 +249,7 @@ On the back side we again shows the state name ("state": "Text") and will compar
 
 Click "Preview" to see how our cards looks now.
 
-![](images/image10.png)
+![](images/image9.png)
 
 That’s it! Our first deck is ready!
 
@@ -259,13 +259,13 @@ However, let us consider some additional features provided by FlashCardsMe.
 
 Sometimes you need to swap the question and the answer to enforce memorization. In our case we also wants to ask State name by it’s capital. To ensure this, the program provides the ability to create multiple templates. Just click on (+) in “Templates” window and create as many templates as you need. The total number of cards in the deck will be equal to the product of the number of entries in the data table on the number of templates. In our case, let's create another template, then the total number of cards in the deck will be equal to 20. Use the (↑) (↓) to change the display order of the fields.
 
-![](images/image4.png)
+![](images/image3.png)
 
 ### Cards Classes
 
 When studying something with Flash Cards, sometimes it is convenient to break cards into groups. Thus, when studying words, it is convenient to break cards into nouns, verbs, and so on and study them separately. For this purpose, the program provides the concept of a card class. In our case, it is possible to separate states for the Southern and Northern regions. To do this, first you need to add the "class" field to the deck data table. We go to the editing screen of the deck, press "Fields: (+)", enter the name "* class". Notice the asterisk at the beginning of the name. Since we need this field only for filtering, it’s good idea to hide it when editing templates. Asterisk will do so. Now enter the class to the new field for all states.
 
-![](images/image15.png)
+![](images/image14.png)
 
 Then click the "Edit: Classes" button. Press the button (+) and enter the name of the class "South states". As a condition, we enter that the field "* class" must contain (be equal) "South". We repeat the procedure for "North classes".![](images/image14.png)
 
@@ -279,13 +279,13 @@ First, we prepare the images of the flags (they can be downloaded from Wikipedia
 
 Next, go to the editing screen of the deck and add a new field "flag", in which we diligently enter the names of files with the image of the flag. Of course, it's more convenient to do this in a spreadsheet using formulas. It is this algorithm of work that we recommend - prepare the data for the deck in a table editor and then only import the data into the program. However, we have a small deck and can do everything manually.
 
-![](images/image7.png)
+![](images/image6.png)
 
 Next, you need to import media files directly into the deck. To do this, click the "Import: Media" button and select the prepared files. If you want to import the entire directory, go to the directory, press Ctrl-A or select several files using Shift-Click.
 
 Now the flag should be displayed on the front side for the template "default" or on the reverse for the "reverse" template. Do this in the template editing window.
 
-![](images/image11.png)
+![](images/image10.png)
 
 Let's look at the front and back of the default template.
 
