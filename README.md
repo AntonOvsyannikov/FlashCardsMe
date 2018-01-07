@@ -18,10 +18,9 @@ Then you need to download the zip file with the program [here](https://github.co
 
 Unpack the zip archive and click FlashCardsMe.jar to run the programm. Make sure first, that jar extension is associated with Java runtime.
 
-You can also look in the folder "Sample Decks" repository and download examples of decks.
+You can also look into [Sample Decks](https://github.com/AntonOvsyannikov/FlashCardsMe/tree/master/SampleDeck) folder in this repository and download examples of decks.
 
 ## Main features
-
 
 ### The Cards, Decks, Stacks
 
@@ -29,17 +28,12 @@ Flash Card is a virtual piece of cardboard, where there is a question on the fro
 
 There are 6 standard stacks, which forms so-called Learning Path:
 
-Deck (Deck) - the starting stack, where all the new cards are placed
-
-Learning - the main stack, in which the learning process mainly occurs
-
-Easy- almost learned cards
-
-Learned- learned card
-
-Hard - cards, difficult to remember
-
-Hardest - very difficult cards
+* **Deck** - the starting stack, where all the new cards are placed
+* **Learning** - the main stack, in which the learning process mainly occurs
+* **Easy** - almost learned cards
+* **Learned** - learned card
+* **Hard** - cards, difficult to remember
+* **Hardest** - very difficult cards
 
 In addition, the program allows you to create custom stacks, and mark cards as “Favorites”. You can always learn the particular stack (i.e. review already learned cards) or mix of the cards from one stack to another.
 
@@ -101,17 +95,12 @@ It's time to start studying! Choose the deck, and then click "Learn!”, and we 
 
 On the learning screen, we see the buttons for the 6 default stacks. Recall their functions:
 
-Deck (Deck) - the starting stack, where all the new cards are placed
-
-Learning - the main stack, in which the learning process mainly occurs
-
-Easy- almost learned cards
-
-Learned- learned card
-
-Hard - cards, difficult to remember
-
-Hardest - very difficult cards
+* **Deck** - the starting stack, where all the new cards are placed
+* **Learning** - the main stack, in which the learning process mainly occurs
+* **Easy** - almost learned cards
+* **Learned** - learned card
+* **Hard** - cards, difficult to remember
+* **Hardest** - very difficult cards
 
 We have 20 cards in the deck in total. Half of them proposes us to enter the name of the state capital, and the second on the contrary - to define the state by it’s capital. All cards are initially placed to the "Deck" stack.
 
@@ -127,29 +116,20 @@ We got the card, which is prompted to enter the name of the state capital of Cal
 
 Postpone the task for later. Now let’s take a look at the control panel, which is located in the lower part of the window.
 
-"<Prev", "Next>” - with these buttons we can go to the previous or next card in the stack. Note, if you press “Next>” the back side of the card is displayed first.
-
-"← Hard", "Easy →” - these buttons moves the card to the neighboring stacks. If you gave wrong answer several times left button becomes yellow, and then red. Same for right answer and right button.
-
-"Cards ..." - opens a window with a list of cards, will describe the window later.
-
-"Shuffle" - shuffle the stack.
-
-"\*" \- marks the card as "Favorites". Then this card appears in a special "Favorites" stack .
-
-"Play" - if the card is with audio - plays it again.
-
-"Rec" - allows you to record from a microphone your pronunciation to compare it with the reference.
+* "<Prev", "Next>” - with these buttons we can go to the previous or next card in the stack. Note, if you press “Next>” the back side of the card is displayed first.
+* "← Hard", "Easy →” - these buttons moves the card to the neighboring stacks. If you gave wrong answer several times left button becomes yellow, and then red. Same for right answer and right button.
+* "Cards ..." - opens a window with a list of cards, will describe the window later.
+* "Shuffle" - shuffle the stack.
+* "\*" \- marks the card as "Favorites". Then this card appears in a special "Favorites" stack .
+* "Play" - if the card is with audio - plays it again.
+* "Rec" - allows you to record from a microphone your pronunciation to compare it with the reference.
 
 Now look at the window title, it presents some useful information about the card and the stack.
 
-"Learning" stack - the name of the stack.
-
-Card # 1 of 10 - the first card of the 10 in the stack
-
-\[12 shows total, 12 in this stack\] - shows the number of times the card was demonstrated in total and in this particular stack.
-
-\[0 success counter\] - shows the balance of right and wrong answers. The counter is used to highlight the button, which proposes to transfer card to next stack.
+* "Learning" stack - the name of the stack.
+* Card # 1 of 10 - the first card of the 10 in the stack
+* \[12 shows total, 12 in this stack\] - shows the number of times the card was demonstrated in total and in this particular stack.
+* \[0 success counter\] - shows the balance of right and wrong answers. The counter is used to highlight the button, which proposes to transfer card to next stack.
 
 Now we will try to do the job. The correct answer is "Sacramento", but let's see what happens if we enter the wrong answer. Type, for example, "Scramento" and press "Enter".
 
