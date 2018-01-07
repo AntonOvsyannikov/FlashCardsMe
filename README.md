@@ -12,9 +12,11 @@ Flash Card is a virtual piece of cardboard, where there is a question on the fro
 
 FlashCardsMe written in Java using the Swing library that allows a program to run on many platforms.
 
-To begin, you should install the Java runtime environment 8. At the moment, the latest official version of the runtime is here.
+To begin, you should install the Java runtime environment 8. At the moment, the latest official version of the runtime is [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-Then you need to download the jar file with the program here.
+Then you need to download the zip file with the program [here](https://github.com/AntonOvsyannikov/FlashCardsMe/raw/master/FlashCards.zip).
+
+Unpack the zip archive and click FlashCardsMe.jar to run the programm. Make sure first, that jar extension is associated with Java runtime.
 
 You can also look in the folder "Sample Decks" repository and download examples of decks.
 
