@@ -1,8 +1,9 @@
 # FlashCardsMe - Studying using the Flash Cards
-[What this program is?](#What this program is?)
+
+[What this program is?](#p1)
 
 
-## What this program is?
+## What this program is? [](#){name=p1}
 
 FlashCardsMe is a simple program for learning information using Flash Cards. It can be used for learning foreign languages (in particular, for memorizing words, alphabets, characters), memorizing place names, visual images, recognizing words by hearing and in other similar cases.
 
