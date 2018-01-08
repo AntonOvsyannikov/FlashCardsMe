@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
-include:
+exclude:
   README.md
+include:
   README_RU.md
