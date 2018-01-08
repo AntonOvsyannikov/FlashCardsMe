@@ -1,4 +1,14 @@
-- [What is this program?](#p_1)
+[Read in Russian](README_RU.md)
+# FlashCardsMe - Learning, using the Flash Cards
+
+
+FlashCardsMe is a simple program for learning information using Flash Cards. It can be used for learning foreign languages (in particular, for memorizing words, alphabets, characters), memorizing place names, visual images, recognizing words by hearing and in other similar cases.
+
+![](images/image15.png)
+
+Flash Card is a virtual piece of cardboard, where there is a question on the front side (such as a word in a foreign language) and answer on the back side (i.e. translation of the word). The program shows the front side, and prompts you to enter an answer, and then shows the reverse side, controlling the correctness of the answer. During learning process, the program allows you to group cards in a stacks like “Easy”, “Learned”, “Difficult” etc. while not solving for the user, which cards to show and in which order, when to consider them memorized, etc. The entire learning process is under control of the trainee. The program, thus, provides a number of powerful and flexible tools of control over the learning process.
+
+## Table of Content
 - [Installation](#p_2)
 - [Main features](#p_3)
   - [The Cards, Decks, Stacks](#p_3_1)
@@ -8,32 +18,21 @@
   - [Statistics on Cards and Stacks](#p_3_5)
   - [Filters](#p_3_6)
   - [Keyboard input](#p_3_7)
-- [Tutorials](#p_4)
-- [Tutorial 1 - Studying with the ready Deck](#p_5)
-  - [Installation and start-up](#p_5_1)
-  - [Studying cards](#p_5_2)
-  - [Learning sessions](#p_5_3)
-  - [Filters](#p_5_4)
-  - [Cards and Stacks window](#p_5_5)
-- [Tutorial 2 - Making own deck](#p_6)
-  - [Simple Deck](#p_6_1)
-  - [Multiple templates](#p_6_2)
-  - [Cards Classes](#p_6_3)
-  - [Images and Audio](#p_6_4)
-  - [Exporting the Deck](#p_6_5)
-[Read in Russian](README_RU.md)
-# FlashCardsMe - Studying using the Flash Cards
+- [Tutorial 1 - Studying with the ready Deck](#p_4)
+  - [Installation and start-up](#p_4_1)
+  - [Studying cards](#p_4_2)
+  - [Learning sessions](#p_4_3)
+  - [Filters](#p_4_4)
+  - [Cards and Stacks window](#p_4_5)
+- [Tutorial 2 - Making own deck](#p_5)
+  - [Simple Deck](#p_5_1)
+  - [Multiple templates](#p_5_2)
+  - [Cards Classes](#p_5_3)
+  - [Images and Audio](#p_5_4)
+  - [Exporting the Deck](#p_5_5)
 
-<a name=p_1></a>
-## What is this program?
 
-FlashCardsMe is a simple program for learning information using Flash Cards. It can be used for learning foreign languages (in particular, for memorizing words, alphabets, characters), memorizing place names, visual images, recognizing words by hearing and in other similar cases.
-
-![](images/image15.png)
-
-Flash Card is a virtual piece of cardboard, where there is a question on the front side (such as a word in a foreign language) and answer on the back side (i.e. translation of the word). The program shows the front side, and prompts you to enter an answer, and then shows the reverse side, controlling the correctness of the answer. During learning process, the program allows you to group cards in a stacks like “Easy”, “Learned”, “Difficult” etc. while not solving for the user, which cards to show and in which order, when to consider them memorized, etc. The entire learning process is under control of the trainee. The program, thus, provides a number of powerful and flexible tools of control over the learning process.
-
-<a name=p_2></a>
+<a name='p_2'></a>
 ## Installation
 
 FlashCardsMe written in Java using the Swing library that allows a program to run on many platforms.
@@ -46,10 +45,10 @@ Unpack the zip archive and click FlashCardsMe.jar to run the program. Make sure 
 
 You can also look into [Sample Decks](https://github.com/AntonOvsyannikov/FlashCardsMe/tree/master/SampleDeck) folder in this repository and download examples of decks.
 
-<a name=p_3></a>
+<a name='p_3'></a>
 ## Main features
 
-<a name=p_3_1></a>
+<a name='p_3_1'></a>
 ### The Cards, Decks, Stacks
 
 Flash Card is a virtual piece of cardboard, where there is a question on the front side (such as a word in a foreign language) and answer on the back side (i.e. translation of the word). The program shows the front side, and prompts you to enter an answer, and then shows the reverse side, controlling the correctness of the answer. If the answer is correct several times, the card is marked as successfully memorized, and the program offers to move it to next Stack. On the contrary, if the card is difficult - the program offers to move it to “difficult to memorize” stack. You can return later to this Stack. Cards can be moved from one stack to another at any time, in various ways, i.e. in random order. This is key difference of FlashCardsMe program from many other programs, where the cards are shuffled to display on a mysterious algorithm. In FlashCardsMe The Stack where the card is resides, is strictly defined, and the user decides where to put the card. That gives you full control over the learning process.
@@ -65,53 +64,47 @@ There are 6 standard stacks, which forms so-called Learning Path:
 
 In addition, the program allows you to create custom stacks, and mark cards as “Favorites”. You can always learn the particular stack (i.e. review already learned cards) or mix of the cards from one stack to another.
 
-<a name=p_3_2></a>
+<a name='p_3_2'></a>
 ### Deck data and Templates
 
 The data for the Deck is a table with a header. Columns forms fields, and the lines are the raw data, which converted into the card using the template. Template is a description of how each field is represented on the front and the back side of the Flash Card.
 
 Sometimes you need to swap the question and the answer. The program allows you to create multiple templates to achieve this.
 
-<a name=p_3_3></a>
+<a name='p_3_3'></a>
 ### Cards and images
 
 To display the cards the program uses the HTML internally, which allows you to use different colors, font sizes, special characters, and insert images.
 
-<a name=p_3_4></a>
+<a name='p_3_4'></a>
 ### Audio
 
 Program can play sound files, while showing front or back of the card. Also it allows you to record pronunciation with the microphone to compare it with the reference.
 
 Audio channel of memorization is very important in the learning process.
 
-<a name=p_3_5></a>
+<a name='p_3_5'></a>
 ### Statistics on Cards and Stacks
 
 For all cards, statistics are kept for the total number of demonstrations, as well as how long the cards was in particular stack. For each stack, statistics on its size are maintained.
 
 This allows you to visually observe how quickly you are learning cards.
 
-<a name=p_3_6></a>
+<a name='p_3_6'></a>
 ### Filters
 
 FlashCardsMe provides possibility to filter cards (if deck developer have provided corresponding fields). For example, in the study of words, you can display only verbs or only nouns.
 
-<a name=p_3_7></a>
+<a name='p_3_7'></a>
 ### Keyboard input
 
 It is important to note, that the learning with cards becomes much more effective if answer is entered from the keyboard, because the fine motor skills is added to visual and aural channels of memorization. FlashCardsMe enables you to use such opportunity.
 
-<a name=p_4></a>
-## Tutorials
-
-The following two small guides will shows you how to study with ready Deck, as well as create your own Deck for FlashCardsMe.
-
-<a name=p_5></a>
+<a name='p_4'></a>
 ## Tutorial 1 - Studying with the ready Deck
 
-<a name=p_5_1></a>
+<a name='p_4_1'></a>
 ### Installation and start-up
-
 
 To begin, you should install the Java runtime environment 8. At the moment, the latest official version of the runtime is [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
@@ -127,7 +120,7 @@ After starting the program you will see the main screen. There is list of availa
 
 Done!
 
-<a name=p_5_2></a>
+<a name='p_4_2'></a>
 ### Studying cards
 
 It's time to start studying! Choose the deck, and then click "Learn!”, and we go to the learning screen.
@@ -190,12 +183,12 @@ The process is repeated until all the cards will be in the stack "Learned". Done
 
 Now let's see on additional features.
 
-<a name=p_5_3></a>
+<a name='p_4_3'></a>
 ### Learning sessions
 
 Learning sessions are useful when several people are studying the same deck or you just want to experiment with cards without losing it’s order in the stacks. There is “Learning session” section on the top of the learning screen. You can always start the new one by pressing “(+)” button.
 
-<a name=p_5_4></a>
+<a name='p_4_4'></a>
 ### Filters
 
 "Filter" button in the Learning window allows you to choose which cards to show in the current session. Filter button opens the filter editing window.
@@ -212,17 +205,17 @@ When finished, press "Apply" button.
 
 Classes useful in studying words to split them to verbs, nouns, etc.
 
-<a name=p_5_5></a>
+<a name='p_4_5'></a>
 ### Cards and Stacks window
 
 Click on "Cards ..." on the learning screen to open Cards and Stacks window. Here we can create and delete custom stacks, transfer cards from one stack to another, view statistics on each card or stack. This gives a powerful analytical tool for the analysis of the learning process.
 
 ![](images/image16.png)
 
-<a name=p_6></a>
+<a name='p_5'></a>
 ## Tutorial 2 - Making own deck
 
-<a name=p_6_1></a>
+<a name='p_5_1'></a>
 ### Simple Deck
 
 Now let’s make our own deck. Actually it will be the Deck used in first tutorial.
@@ -283,14 +276,14 @@ That’s it! Our first deck is ready!
 
 However, let us consider some additional features provided by FlashCardsMe.
 
-<a name=p_6_2></a>
+<a name='p_5_2'></a>
 ### Multiple templates
 
 Sometimes you need to swap the question and the answer to enforce memorization. In our case we also wants to ask State name by it’s capital. To ensure this, the program provides the ability to create multiple templates. Just click on (+) in “Templates” window and create as many templates as you need. The total number of cards in the deck will be equal to the product of the number of entries in the data table on the number of templates. In our case, let's create another template, then the total number of cards in the deck will be equal to 20. Use the (↑) (↓) to change the display order of the fields.
 
 ![](images/image3.png)
 
-<a name=p_6_3></a>
+<a name='p_5_3'></a>
 ### Cards Classes
 
 When studying something with Flash Cards, sometimes it is convenient to break cards into groups. Thus, when studying words, it is convenient to break cards into nouns, verbs, and so on and study them separately. For this purpose, the program provides the concept of a card class. In our case, it is possible to separate states for the Southern and Northern regions. To do this, first you need to add the "class" field to the deck data table. We go to the editing screen of the deck, press "Fields: (+)", enter the name "\*class". Notice the asterisk at the beginning of the name. Since we need this field only for filtering, it’s good idea to hide it when editing templates. Asterisk will do so. Now enter the class to the new field for all states.
@@ -303,7 +296,7 @@ Then click the "Edit: Classes" button. Press the button (+) and enter the name o
 
 Done! Now our cards are divided into classes, and when studying the deck, we will be able to choose which states we will study.
 
-<a name=p_6_4></a>
+<a name='p_5_4'></a>
 ### Images and Audio
 
 When working with cards, various media are useful. When studying foreign languages, audio files, in which professional teachers say words or syllables, are invaluable. In our case, to strengthen associative links, we can display not only the state name, but also its flag. In FlashCardsMe, you can display images and play audio files when you show the front or back of the card. For example, let's show how to display the flag on the front side of the card.
@@ -326,7 +319,7 @@ Let's look at the front and back of the default template.
 
 Done!
 
-<a name=p_6_5></a>
+<a name='p_5_5'></a>
 ### Exporting the Deck
 
 Thus, we have learned the basics of creating decks in FlashCardsMe. Now we should export the ready deck for distribution. The program FlashCardsMe will automatically pack decks data and all it's media files into a single archive, ready for distribution on forums or in some other way. To do this, go to the main screen of the program, select our deck and click the "Export ..." button. Select the directory and file name, click "Save". Our deck is ready! This is the file we used in the first lesson.
