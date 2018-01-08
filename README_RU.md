@@ -1,3 +1,4 @@
+[Read in English](README.md)
 # FlashCardsMe - обучение при помощи Карточек
 
 ## Что это за программа?
