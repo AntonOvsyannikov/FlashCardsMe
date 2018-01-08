@@ -1,5 +1,5 @@
-# FlashCardsMe - Studying using the Flash Cards
 [Read in Russian](README_RU.md)
+# FlashCardsMe - Studying using the Flash Cards
 
 ## What is this program? 
 
