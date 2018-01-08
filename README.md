@@ -1,7 +1,5 @@
 # FlashCardsMe - Studying using the Flash Cards
-
-[What this program is?](#p1)
-
+[Read in Russian](README_RU.md)
 
 ## What this program is? 
 
@@ -11,7 +9,7 @@ FlashCardsMe is a simple program for learning information using Flash Cards. It 
 
 Flash Card is a virtual piece of cardboard, where there is a question on the front side (such as a word in a foreign language) and answer on the back side (i.e. translation of the word). The program shows the front side, and prompts you to enter an answer, and then shows the reverse side, controlling the correctness of the answer. During learning process, the program allows you to group cards in a stacks like “Easy”, “Learned”, “Difficult” etc. while not solving for the user, which cards to show and in which order, when to consider them memorized, etc. The entire learning process is under control of the trainee. The program, thus, provides a number of powerful and flexible tools of control over the learning process.
 
-## Installation <a name=p1></a>
+## Installation
 
 FlashCardsMe written in Java using the Swing library that allows a program to run on many platforms.
 
