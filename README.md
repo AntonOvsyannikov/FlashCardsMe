@@ -17,7 +17,7 @@ To begin, you should install the Java runtime environment 8. At the moment, the 
 
 Then you need to download the zip file with the program [here](https://github.com/AntonOvsyannikov/FlashCardsMe/raw/master/FlashCardsMe.zip).
 
-Unpack the zip archive and click FlashCardsMe.jar to run the programm. Make sure first, that jar extension is associated with Java runtime.
+Unpack the zip archive and click FlashCardsMe.jar to run the program. Make sure first, that jar extension is associated with Java runtime.
 
 You can also look into [Sample Decks](https://github.com/AntonOvsyannikov/FlashCardsMe/tree/master/SampleDeck) folder in this repository and download examples of decks.
 
